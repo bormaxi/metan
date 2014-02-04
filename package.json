@@ -1,0 +1,20 @@
+{
+  "name": "metan",
+  "version": "0.0.1",
+  "description": "Google Analytics, Yandex.Metrika goal automation",
+  "main": "metan.js",
+  "author": "Michail Morozov <morozov@serenity.su>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serenity/metan.git"
+  },
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.5.1",
+    "gulp-util": "~2.2.14",
+    "gulp-uglify": "~0.2.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build"
+  }
+}
