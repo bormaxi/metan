@@ -14,10 +14,13 @@ metan
 ```yandex_metrika_id```: 'string' || undefined
 
 ## Использование
-
+```
 <element data-metan-[event]="[target]" [data-metan-category="[category=undefined]"]></element>
-
+```
 ## Примеры
-
+```
 <a data-metan-click="click_btn" data-metan-category="index_page" href="http://serenity.su">Click</a>
+```
+```
 <a data-metan-click="click_btn" href="http://serenity.su">Click</a>
+```
