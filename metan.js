@@ -119,7 +119,7 @@
 
       eventHandler = function(element) {
         var value    = element.getAttribute('data-metan-' + event),
-            category = element.getAttribute('data-metan-' + event + '-category') || 'undefined';
+            category = element.getAttribute('data-metan-category') || 'undefined';
         return function(e) {
           try {
             self.goal(value, category);
