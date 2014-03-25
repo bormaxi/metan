@@ -6,7 +6,7 @@ metan
 ## Установка
 ```
 <script>
-(function(document,window){var node=document.getElementsByTagName("script")[0],script=document.createElement("script"),ymUid=arguments[2]||null;(window["metan_callback"]=window["metan_callback"]||[]).push(function(){try{new window.Metan(ymUid)}catch(e){}});script.type="text/javascript";script.async=true;script.src=(document.location.protocol=="https:"?"https:":"http:")+"//metan.serenity.su/v1/metan.js";node.parentNode.insertBefore(script,node)})
+(function(document,window){var node=document.getElementsByTagName("script")[0],script=document.createElement("script"),ymUid=arguments[2]||null;(window["metan_callback"]=window["metan_callback"]||[]).push(function(){try{new window.Metan(ymUid)}catch(e){}});script.type="text/javascript";script.async=true;script.src=(document.location.protocol=="https:"?"https:":"http:")+"//serenity.github.io/metan/v1/metan.js";node.parentNode.insertBefore(script,node)})
 (document,window, [yandex_metrika_id]);
 </script>
 ```
